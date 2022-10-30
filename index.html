@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +22,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -115,7 +115,7 @@
           </div>
         </section>
         <!-- shoes section -->
-        <section class="container my-5">
+        <section class="container" my-5 id="shoes">
           <h1>Shoes</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-lg-4 col-md-6 col-1">
@@ -160,8 +160,8 @@
           </div>
         </section>
         <!-- begs-section -->
-        <section class="container my-5">
-          <h1>Begs</h1>
+        <section class="container my-5"  id="backpack">
+          <h1>Backpack</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-lg-4 col-md-6 col-1">
               <div class="card shadow-lg border-0 h-100">
@@ -204,7 +204,8 @@
             </div>
           </div>
         </section>
-        <section style="height:300px;" class="container d-flex justify-content-center align-items-center bg-info rounded-5">
+        <!-- Subscribe -->
+        <section style="height:300px;" class="container d-flex justify-content-center align-items-center bg-info rounded-5" id="subscribe">
           <div>
             <h1>LET'S STAY IN TOUCH</h1>
             <p>Get updates on sales, specials one more</p>
@@ -216,8 +217,8 @@
         </section>
 
     </main>
-    <footer>
-
+    <footer class="mt-5 text-center">
+       <p><small>2022. Panda Commerce | All rights reserved By Al Mahfuz</small></p>
     </footer>
 
 
